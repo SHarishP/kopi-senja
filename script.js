@@ -1,4 +1,3 @@
-window.alert("Hellow World");
 // Toggle class active
 const navbarNav = document.querySelector(".navbar-nav");
 const menu = document.querySelector("#menu");
