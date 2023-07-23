@@ -92,6 +92,42 @@ body {
   color: var(--secondary);
 }
 
+/* Search Form */
+.navbar .search-form {
+  position: absolute;
+  top: 110%;
+  right: 7%;
+  height: 3rem;
+  width: 30rem;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s linear;
+  perspective-origin: ;
+}
+
+.navbar .search-form.active {
+  transform: scaleY(1);
+}
+
+.navbar .search-form input {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  color: var(--bg);
+  font-size: 1rem;
+}
+
+.navbar .search-form label {
+  color: var(--bg);
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -140,7 +176,7 @@ body {
   font-weight: 100;
   text-shadow: 1px 1px 3px, rgba(1, 1, 1, 0.5);
   margin-top: 0.5rem;
-  mix-blend-mode: differencex;
+  mix-blend-mode: difference;
 }
 
 .hero .content .cta {
