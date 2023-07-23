@@ -105,7 +105,6 @@ body {
   transform: scaleY(0);
   transform-origin: top;
   transition: 0.3s linear;
-  perspective-origin: ;
 }
 
 .navbar .search-form.active {
